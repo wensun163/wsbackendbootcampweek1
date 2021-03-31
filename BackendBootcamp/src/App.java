@@ -11,7 +11,7 @@ public class App {
 	*/
 	public static void main(String[] args) {
 		//Item price
-		double itemPrice = 2.50;
+		double itemPrice = 2.40; // change made by jeff1haupt (changed from 2.50)
 		//Amount of money in wallet
 		double moneyInWallet = 50.50;
 		//Number of friends
@@ -33,19 +33,19 @@ public class App {
 		//New amount of money in wallet after buying the item
 		  double newAmountMoney = moneyInWallet - itemPrice; 
 		
-		//Number of friends you’ve made each year based on your age variable and your number of friends variable
+		//Number of friends youï¿½ve made each year based on your age variable and your number of friends variable
 		  int numFdPerYear = numOfFd/age;
 		
 		//Full name based on first name, middle initial, and last name
 		  String fullName = firstName +" " + middleInitial + " " + lastName;
 		  
 		/*
-		 * Use System.out.println() to print out the values of all the variables you’ve created. 
+		 * Use System.out.println() to print out the values of all the variables youï¿½ve created. 
 		 * Provide some detail as to what the value being printed is. 
 		 */
 		  
 		  System.out.println("New amount of money in wallet after buying the item is: " + newAmountMoney);
-		  System.out.println("Number of friends you’ve made each year based on your age: " + numFdPerYear);
+		  System.out.println("Number of friends youï¿½ve made each year based on your age: " + numFdPerYear);
 		  System.out.println("Full name is: " + fullName);
 	}//end main
 
